@@ -8,3 +8,4 @@
 - Firebase Firestore Realtime DB
 - Firebase Hosting
 - Firebase Authentication (with Google) 
+- React Flip Move
