@@ -33,7 +33,11 @@
     border:none;
     background-color: transparent;
     outline-width: 0;
+    font-size: 14px;
+    
 }
+
+
 
 .header__center {
     display: flex;
