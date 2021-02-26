@@ -1,4 +1,5 @@
 import React from 'react'
+import '../components/Sidebar.css'
 import SidebarRow from './SidebarRow'
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined'
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
