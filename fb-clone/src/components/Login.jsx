@@ -12,14 +12,11 @@ function Login() {
 
     const signIn = () => {
        auth.signInWithPopup(provider)
-       .then(result => {
-        
+       .then((result) => { 
         dispatch({
             type: actionTypes.SET_USER,
-            user: result.user
-        })
-
-        //    console.log(result.user)
+            user: result.user,
+        });
        }).catch(error => alert(error.message))
     }
 
